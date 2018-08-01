@@ -6,6 +6,8 @@ This extensions will fill by one click you weekly time sheet automatically (9 wo
 The extension will be enable just when you will be on time sheets tab.
 
 How to use?
+	
+	First edit manifest.json: under content_scripts look for "[yourURL]" and change it to the desire one.
 
 	Start of week date - default value is current week, but change it if you want to fill in prior weeks.	
 	Number of days to fill - in range of 1-5.	
